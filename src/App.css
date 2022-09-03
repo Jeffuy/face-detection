@@ -36,7 +36,7 @@ label {
 
 .addImg {
 	width: 25px;
-	cursor: pointer
+	cursor: pointer;
 }
 
 .postForm {
@@ -44,11 +44,11 @@ label {
 	flex-direction: column;
 }
 
-
 .avatar {
 	width: 50px;
 	height: 50px;
 	border-radius: 50%;
+	margin-right: 20px;
 }
 
 button {
@@ -58,4 +58,35 @@ button {
 	color: white;
 	background-color: teal;
 	cursor: pointer;
+}
+
+.postInput {
+	height: 30px;
+	border: none;
+	margin-bottom: 10px;
+}
+
+.container {
+	height: calc(100vh - 50px);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.mainImg {
+	width: 650px;
+	height: 450px;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
